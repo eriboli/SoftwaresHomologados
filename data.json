@@ -1,0 +1,44 @@
+[
+{
+    "software":"Adobe Reader",
+    "versao":"25.001",
+    "descricao":"Adobe Reader é um software gratuito e confiável da Adobe para visualizar, imprimir, assinar, compartilhar e fazer anotações em arquivos PDF.",
+    "link":"https://get.adobe.com/reader/"
+},
+{
+    "software":"Google Chrome",
+    "versao":"142.0.7444.177",
+    "descricao":"Google Chrome é um navegador de internet gratuito, desenvolvido pelo Google, usado para navegar na web e acessar sites.",
+    "link":"https://www.google.com/intl/pt-BR/chrome/"
+},
+{
+    "software":"Advanced IP Scanner",
+    "versao":"3.5.2.1",
+    "descricao":"O Advanced IP Scanner é um programa gratuito e confiável para analisar e monitorar redes locais (LAN), que identifica todos os dispositivos conectados, exibe informações como endereço IP, MAC e nomes, e permite o acesso remoto a pastas compartilhadas e servidores FTP.",
+    "link":"https://www.advanced-ip-scanner.com/br/"
+},
+{
+    "software":"Notepad++",
+    "versao":"8.8.7",
+    "descricao":"Notepad++ é um editor de texto gratuito e de código aberto para Windows, considerado uma versão 'turbinada' do Bloco de Notas.",
+    "link":"https://notepad-plus-plus.org/downloads/"
+},
+{
+    "software":"WinSCP",
+    "versao":"6.5.4",
+    "descricao":"WinSCP é um cliente de transferência de arquivos gratuito e de código aberto para o Windows, usado para copiar arquivos entre um computador local e um servidor remoto.",
+    "link":"https://winscp.net/eng/download.php"
+},
+{
+    "software":"mRemoteNG",
+    "versao":"1.2.4880",
+    "descricao":"mRemoteNG (ou mRemote) é um gerenciador de conexões remotas de código aberto e gratuito que permite aos usuários gerenciar múltiplos acessos a computadores e servidores em uma única interface com abas.",
+    "link":"https://github.com/mRemoteNG/mRemoteNG"
+},
+{
+    "software":"Putty",
+    "versao":"0.83",
+    "descricao":"PuTTY é um emulador de terminal gratuito e de código aberto, utilizado principalmente no Windows, que permite a conexão remota a servidores via protocolos como SSH, Telnet e SCP.",
+    "link":"https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html"
+}
+]
