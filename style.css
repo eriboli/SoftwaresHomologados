@@ -39,7 +39,7 @@ header {
 }
 
 header h1 {
-    display: flex;
+    display: flex; /* Adiciona função display flex*/
     font-size: 2rem; /* Tamanho da fonte */
     margin: 0; /* Remove a margem padrão */
     font-weight: 5000; /* Peso da fonte (médio) */
