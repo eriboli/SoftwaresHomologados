@@ -3,4 +3,6 @@ Meu primeiro projeto de HTML5 e CSS criado com base no template disponibilizado 
 
 Neste projeto, alterei o modelo para servir como base de Softwares Homologados para ser utilizada pelo time de TI de uma empresa fictícia, alterando o layout, as cores e a forma como alguns objetos são apresentados.
 
-Além disso, com ajuda do Google Gemini, adicionei uma funcionalidade que permite a inclusão de novas entradas para serem consultadas porteriormente pela equipe.
+Além disso, com ajuda do Google Gemini, adicionei duas funcionalidades:
+1. Formulário para inclusão de novas entradas para serem consultadas posteriormente pela equipe;
+2. Botão de alternancia entre o tema claro e escuro.
