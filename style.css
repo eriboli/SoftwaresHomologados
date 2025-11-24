@@ -281,6 +281,13 @@ article a:hover {
     header { /* Estilos para telas com largura máxima de 768px */
         flex-direction: column; /* Organiza os itens do cabeçalho em coluna */
         padding: 1rem; /* Reduz o espaçamento interno */
+        gap: 1rem;
+    }
+
+    .menu {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
     }
 
     header h1 { /* Estilos para o h1 no cabeçalho em telas menores */
@@ -289,8 +296,7 @@ article a:hover {
     }
 
     div input { /* Estilos para o input em telas menores */
-        width: 90vw; /* Largura baseada na largura da viewport */
-        font-size: 1.2rem; /* Reduz o tamanho da fonte */
+        width: 80vw;
     }
 
     main { /* Estilos para o main em telas menores */
@@ -303,34 +309,27 @@ article a:hover {
 }
 
 @media (max-width: 480px) {
-    header h1 { /* Estilos para o h1 em telas com largura máxima de 480px */
-        font-size: 1rem; /* Reduz ainda mais o tamanho da fonte */
-        max-width: 70%; /* Define uma largura máxima */
-        word-wrap: break-word; /* Permite a quebra de palavras longas */
+    header h1 {
+        font-size: 1.5rem;
+        word-wrap: break-word;
     }
 
-    div input, /* Estilos para o input e seu placeholder em telas muito pequenas */
+    div input,
     div input::placeholder {
         font-size: 1rem; /* Reduz o tamanho da fonte */
     }
 
-    article h2 { /* Estilos para o h2 do article em telas muito pequenas */
-        font-size: 1.3rem; /* Reduz o tamanho da fonte */
+    .menu div {
+        flex-direction: column;
+        width: 100%;
+        align-items: stretch;
     }
 
-    div { /* Estilos para a div do cabeçalho em telas muito pequenas */
-        display: flex; /* Habilita flexbox */
-        align-items: center; /* Alinha itens ao centro */
-        justify-content: center; /* Centraliza itens */
-        flex-direction: column; /* Organiza em coluna */
-        gap: 0.5rem; /* Espaçamento entre os itens */
+    .menu button {
+        margin-left: 0;
     }
 
     .footer { /* Estilos para o rodapé em telas muito pequenas */
         display: none; /* Oculta o rodapé */
-    }
-
-    button { /* Estilos para o botão em telas muito pequenas */
-        margin-top: 1rem; /* Adiciona margem no topo */
     }
 }
