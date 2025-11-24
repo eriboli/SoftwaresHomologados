@@ -12,12 +12,20 @@
     --bg-color: #dde1f0; /* Cor de fundo (cinza escuro) */
 }
 
+:root[data-theme="dark"] {
+    --primary-color: #ff5722;
+    --secondary-color: #ffffff;
+    --tertiary-color: #cccccc;
+    --bg-color: #121212;
+}
+
 body {
     margin: 0; /* Remove a margem padrão do body */
     background: var(--bg-color); /* Define a cor de fundo usando uma variável */
     color: var(--secondary-color); /* Define a cor do texto padrão usando uma variável */
     /* font-family: "Quicksand", sans-serif; /* Define a família da fonte */
     font-family: "Exo 2", sans-serif;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 header {

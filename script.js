@@ -121,6 +121,19 @@ campoBusca.addEventListener('keypress', (event) => {
 });
 
 // Carrega os dados iniciais quando a página é carregada
-document.addEventListener('DOMContentLoaded', carregarDados);
+document.addEventListener('DOMContentLoaded', () => {
+    carregarDados();
+    const temaSalvo = localStorage.getItem('theme');
+    if (temaSalvo) {
+        document.documentElement.setAttribute('data-theme', temaSalvo);
+    }
+});
+
+function mudaTema() {
+    const html = document.documentElement;
+    const novoTema = html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+    html.setAttribute('data-theme', novoTema);
+    localStorage.setItem('theme', novoTema);
+}
 
 
